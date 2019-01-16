@@ -8,6 +8,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
+
+import org.springframework.stereotype.Service;
+
 import java.awt.GridBagLayout;
 import javax.swing.JTable;
 import java.awt.GridBagConstraints;

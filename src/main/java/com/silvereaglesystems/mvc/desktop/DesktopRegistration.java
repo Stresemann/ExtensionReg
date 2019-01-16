@@ -102,13 +102,13 @@ public class DesktopRegistration {
 	}
 
 	private void registerPlugin(String username, String password, String url) {
-		Extension extension = new Extension();
-		extension.setKey("1.0.0");
-		extension.setVersion("1.0.0");
-		RegisterService registerService = new RegisterService();
-		Client client = new Client();
-    	client.setUrl("https://www.google.com/");
-    	extension.setClient(client);
-    	registerService.pluginAction(extension, "registerPlugin", url, username, password);
+//		Extension extension = new Extension();
+//		extension.setKey("1.0.0");
+//		extension.setVersion("1.0.0");
+//		RegisterService registerService = new RegisterService();
+//		Client client = new Client();
+//    	client.setUrl("https://www.google.com/");
+//    	extension.setClient(client);
+//    	registerService.pluginAction(extension, "registerPlugin", url, username, password);
 	}
 }
